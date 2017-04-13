@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF80EC471E9F749E00401F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80EC461E9F749E00401F86 /* AppDelegate.swift */; };
+		EF80EC491E9F749E00401F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80EC481E9F749E00401F86 /* ViewController.swift */; };
+		EF80EC4C1E9F749E00401F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80EC4A1E9F749E00401F86 /* Main.storyboard */; };
+		EF80EC4E1E9F749E00401F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80EC4D1E9F749E00401F86 /* Assets.xcassets */; };
+		EF80EC511E9F749E00401F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80EC4F1E9F749E00401F86 /* LaunchScreen.storyboard */; };
+		EF80EC5C1E9F749E00401F86 /* EmoticonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80EC5B1E9F749E00401F86 /* EmoticonsTests.swift */; };
+		EF80EC671E9F749E00401F86 /* EmoticonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80EC661E9F749E00401F86 /* EmoticonsUITests.swift */; };
+		EF80EC761E9F752D00401F86 /* EmoticonsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80EC741E9F752D00401F86 /* EmoticonsHelper.swift */; };
+		EF80EC771E9F752D00401F86 /* ExpressionResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF80EC751E9F752D00401F86 /* ExpressionResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF80EC581E9F749E00401F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF80EC3B1E9F749D00401F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF80EC421E9F749E00401F86;
+			remoteInfo = Emoticons;
+		};
+		EF80EC631E9F749E00401F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF80EC3B1E9F749D00401F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF80EC421E9F749E00401F86;
+			remoteInfo = Emoticons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF80EC431E9F749E00401F86 /* Emoticons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoticons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80EC461E9F749E00401F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF80EC481E9F749E00401F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF80EC4B1E9F749E00401F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF80EC4D1E9F749E00401F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF80EC501E9F749E00401F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF80EC521E9F749E00401F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80EC571E9F749E00401F86 /* EmoticonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80EC5B1E9F749E00401F86 /* EmoticonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonsTests.swift; sourceTree = "<group>"; };
+		EF80EC5D1E9F749E00401F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80EC621E9F749E00401F86 /* EmoticonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80EC661E9F749E00401F86 /* EmoticonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonsUITests.swift; sourceTree = "<group>"; };
+		EF80EC681E9F749E00401F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80EC741E9F752D00401F86 /* EmoticonsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonsHelper.swift; sourceTree = "<group>"; };
+		EF80EC751E9F752D00401F86 /* ExpressionResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExpressionResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF80EC401E9F749E00401F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC541E9F749E00401F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC5F1E9F749E00401F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF80EC3A1E9F749D00401F86 = {
+			isa = PBXGroup;
+			children = (
+				EF80EC451E9F749E00401F86 /* Emoticons */,
+				EF80EC5A1E9F749E00401F86 /* EmoticonsTests */,
+				EF80EC651E9F749E00401F86 /* EmoticonsUITests */,
+				EF80EC441E9F749E00401F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF80EC441E9F749E00401F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF80EC431E9F749E00401F86 /* Emoticons.app */,
+				EF80EC571E9F749E00401F86 /* EmoticonsTests.xctest */,
+				EF80EC621E9F749E00401F86 /* EmoticonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF80EC451E9F749E00401F86 /* Emoticons */ = {
+			isa = PBXGroup;
+			children = (
+				EF80EC461E9F749E00401F86 /* AppDelegate.swift */,
+				EF80EC481E9F749E00401F86 /* ViewController.swift */,
+				EF80EC741E9F752D00401F86 /* EmoticonsHelper.swift */,
+				EF80EC751E9F752D00401F86 /* ExpressionResource.bundle */,
+				EF80EC4A1E9F749E00401F86 /* Main.storyboard */,
+				EF80EC4D1E9F749E00401F86 /* Assets.xcassets */,
+				EF80EC4F1E9F749E00401F86 /* LaunchScreen.storyboard */,
+				EF80EC521E9F749E00401F86 /* Info.plist */,
+			);
+			path = Emoticons;
+			sourceTree = "<group>";
+		};
+		EF80EC5A1E9F749E00401F86 /* EmoticonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF80EC5B1E9F749E00401F86 /* EmoticonsTests.swift */,
+				EF80EC5D1E9F749E00401F86 /* Info.plist */,
+			);
+			path = EmoticonsTests;
+			sourceTree = "<group>";
+		};
+		EF80EC651E9F749E00401F86 /* EmoticonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF80EC661E9F749E00401F86 /* EmoticonsUITests.swift */,
+				EF80EC681E9F749E00401F86 /* Info.plist */,
+			);
+			path = EmoticonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF80EC421E9F749E00401F86 /* Emoticons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80EC6B1E9F749E00401F86 /* Build configuration list for PBXNativeTarget "Emoticons" */;
+			buildPhases = (
+				EF80EC3F1E9F749E00401F86 /* Sources */,
+				EF80EC401E9F749E00401F86 /* Frameworks */,
+				EF80EC411E9F749E00401F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emoticons;
+			productName = Emoticons;
+			productReference = EF80EC431E9F749E00401F86 /* Emoticons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF80EC561E9F749E00401F86 /* EmoticonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80EC6E1E9F749E00401F86 /* Build configuration list for PBXNativeTarget "EmoticonsTests" */;
+			buildPhases = (
+				EF80EC531E9F749E00401F86 /* Sources */,
+				EF80EC541E9F749E00401F86 /* Frameworks */,
+				EF80EC551E9F749E00401F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF80EC591E9F749E00401F86 /* PBXTargetDependency */,
+			);
+			name = EmoticonsTests;
+			productName = EmoticonsTests;
+			productReference = EF80EC571E9F749E00401F86 /* EmoticonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF80EC611E9F749E00401F86 /* EmoticonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80EC711E9F749E00401F86 /* Build configuration list for PBXNativeTarget "EmoticonsUITests" */;
+			buildPhases = (
+				EF80EC5E1E9F749E00401F86 /* Sources */,
+				EF80EC5F1E9F749E00401F86 /* Frameworks */,
+				EF80EC601E9F749E00401F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF80EC641E9F749E00401F86 /* PBXTargetDependency */,
+			);
+			name = EmoticonsUITests;
+			productName = EmoticonsUITests;
+			productReference = EF80EC621E9F749E00401F86 /* EmoticonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF80EC3B1E9F749D00401F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					EF80EC421E9F749E00401F86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF80EC561E9F749E00401F86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF80EC421E9F749E00401F86;
+					};
+					EF80EC611E9F749E00401F86 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF80EC421E9F749E00401F86;
+					};
+				};
+			};
+			buildConfigurationList = EF80EC3E1E9F749D00401F86 /* Build configuration list for PBXProject "Emoticons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF80EC3A1E9F749D00401F86;
+			productRefGroup = EF80EC441E9F749E00401F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF80EC421E9F749E00401F86 /* Emoticons */,
+				EF80EC561E9F749E00401F86 /* EmoticonsTests */,
+				EF80EC611E9F749E00401F86 /* EmoticonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF80EC411E9F749E00401F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80EC511E9F749E00401F86 /* LaunchScreen.storyboard in Resources */,
+				EF80EC771E9F752D00401F86 /* ExpressionResource.bundle in Resources */,
+				EF80EC4E1E9F749E00401F86 /* Assets.xcassets in Resources */,
+				EF80EC4C1E9F749E00401F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC551E9F749E00401F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC601E9F749E00401F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF80EC3F1E9F749E00401F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80EC491E9F749E00401F86 /* ViewController.swift in Sources */,
+				EF80EC471E9F749E00401F86 /* AppDelegate.swift in Sources */,
+				EF80EC761E9F752D00401F86 /* EmoticonsHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC531E9F749E00401F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80EC5C1E9F749E00401F86 /* EmoticonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80EC5E1E9F749E00401F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80EC671E9F749E00401F86 /* EmoticonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF80EC591E9F749E00401F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF80EC421E9F749E00401F86 /* Emoticons */;
+			targetProxy = EF80EC581E9F749E00401F86 /* PBXContainerItemProxy */;
+		};
+		EF80EC641E9F749E00401F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF80EC421E9F749E00401F86 /* Emoticons */;
+			targetProxy = EF80EC631E9F749E00401F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF80EC4A1E9F749E00401F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF80EC4B1E9F749E00401F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF80EC4F1E9F749E00401F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF80EC501E9F749E00401F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF80EC691E9F749E00401F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF80EC6A1E9F749E00401F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF80EC6C1E9F749E00401F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emoticons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.Emoticons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF80EC6D1E9F749E00401F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Emoticons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.Emoticons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF80EC6F1E9F749E00401F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmoticonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.EmoticonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoticons.app/Emoticons";
+			};
+			name = Debug;
+		};
+		EF80EC701E9F749E00401F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmoticonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.EmoticonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoticons.app/Emoticons";
+			};
+			name = Release;
+		};
+		EF80EC721E9F749E00401F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmoticonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.EmoticonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Emoticons;
+			};
+			name = Debug;
+		};
+		EF80EC731E9F749E00401F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmoticonsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.EmoticonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Emoticons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF80EC3E1E9F749D00401F86 /* Build configuration list for PBXProject "Emoticons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80EC691E9F749E00401F86 /* Debug */,
+				EF80EC6A1E9F749E00401F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF80EC6B1E9F749E00401F86 /* Build configuration list for PBXNativeTarget "Emoticons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80EC6C1E9F749E00401F86 /* Debug */,
+				EF80EC6D1E9F749E00401F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF80EC6E1E9F749E00401F86 /* Build configuration list for PBXNativeTarget "EmoticonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80EC6F1E9F749E00401F86 /* Debug */,
+				EF80EC701E9F749E00401F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF80EC711E9F749E00401F86 /* Build configuration list for PBXNativeTarget "EmoticonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80EC721E9F749E00401F86 /* Debug */,
+				EF80EC731E9F749E00401F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF80EC3B1E9F749D00401F86 /* Project object */;
+}
