@@ -59,10 +59,10 @@ class EmoticonsHelper {
     static func convertToCommonEmoticons(text: String, font: UIFont, textColor: UIColor) -> NSMutableAttributedString {
         
         /// 字体、颜色
-        let textAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: textColor]
+        let textAttributes = [NSAttributedStringKey.font: font, NSAttributedStringKey.foregroundColor: textColor]
         
         /// 获取字体的行高，作为表情的高度
-        let attachmentHeight = font.lineHeight;
+        let attachmentHeight = font.lineHeight
         
         //转成NSString
         let originalNSString = text as NSString
@@ -76,7 +76,7 @@ class EmoticonsHelper {
         }
         
         //获取到匹配正则的数据
-        if let matches = regex?.matches(in: text, options: NSRegularExpression.MatchingOptions.withoutAnchoringBounds, range: NSMakeRange(0, attStr.string.characters.count)) {
+        if let matches = regex?.matches(in: text, options: NSRegularExpression.MatchingOptions.withoutAnchoringBounds, range: NSMakeRange(0, attStr.string.count)) {
             if matches.count > 0 {
                 //遍历符合的数据进行解析
                 for i in 0..<matches.count {
@@ -91,7 +91,7 @@ class EmoticonsHelper {
                             attachment.image  = image
                             
                             let attachmentWidth = attachmentHeight * image.size.width / image.size.height
-                            attachment.bounds = CGRect(x: 0, y: 0, width: attachmentWidth, height: attachmentHeight);
+                            attachment.bounds = CGRect(x: 0, y: 0, width: attachmentWidth, height: attachmentHeight)
                             //通过NSTextAttachment生成一个NSAttributedString
                             let rep = NSAttributedString(attachment: attachment)
                             //把表情于之前的字符串替换
