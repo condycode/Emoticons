@@ -91,7 +91,7 @@ class EmoticonsHelper {
                             attachment.image  = image
                             
                             let attachmentWidth = attachmentHeight * image.size.width / image.size.height
-                            attachment.bounds = CGRect(x: 0, y: 0, width: attachmentWidth, height: attachmentHeight)
+                            attachment.bounds = CGRect(x: 0, y: (font.capHeight - font.lineHeight)/2, width: attachmentWidth, height: attachmentHeight)
                             //通过NSTextAttachment生成一个NSAttributedString
                             let rep = NSAttributedString(attachment: attachment)
                             //把表情于之前的字符串替换

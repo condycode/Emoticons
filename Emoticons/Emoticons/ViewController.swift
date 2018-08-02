@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let text = "[你好][(|)][hello][<o)][:-#][[(k)][(D)]][sssd][aadf][:$]"
+        let text = "[你好][(|)]【[[hello][<o)][:-#][[(k)][(D)]][sssd][aadf][:$]"
         let attributeStr = EmoticonsHelper.convertToCommonEmoticons(text: text, font: label.font, textColor: label.textColor)
         label.attributedText = attributeStr
     }
